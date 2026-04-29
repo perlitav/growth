@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preload" as="image" href="assets/panoramica.jpg" fetchpriority="high" />
 </head>
 <body>
 
@@ -39,7 +40,7 @@
 
   <!-- FOTO SEPARADORA: RÍO -->
   <div class="foto-separadora">
-    <img src="assets/rio.jpg" alt="Río en la naturaleza de Galicia" loading="lazy" data-reveal="scale" />
+    <img src="assets/rio.jpg" alt="Río en la naturaleza de Galicia" loading="eager" fetchpriority="high" data-reveal="scale" />
     <div class="foto-caption" data-reveal="fade">Galicia · ríos, calma y naturaleza</div>
   </div>
 
