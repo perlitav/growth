@@ -83,7 +83,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: clamp(4.5rem, 14vw, 8.5rem);
+  font-size: clamp(3.2rem, 13vw, 8.5rem);
   font-weight: 300;
   letter-spacing: -0.02em;
 }
@@ -160,11 +160,11 @@ p:last-child { margin-bottom: 0; }
 }
 
 /* ===== SECCIONES ===== */
-.seccion        { padding: 88px 0; background: var(--fondo-clara); }
-.seccion-sage   { padding: 88px 0; background: var(--fondo-sage); }
+.seccion        { padding: 56px 0; background: var(--fondo-clara); }
+.seccion-sage   { padding: 56px 0; background: var(--fondo-sage); }
 
 .seccion-tierra {
-  padding: 100px 0;
+  padding: 64px 0;
   background: var(--fondo-tierra);
   display: flex;
   justify-content: center;
@@ -174,7 +174,7 @@ p:last-child { margin-bottom: 0; }
 .seccion-tierra .cita { color: rgba(255,255,255,0.7); border-color: rgba(255,255,255,0.25); }
 
 .seccion-precio {
-  padding: 110px 0;
+  padding: 64px 0;
   background: var(--fondo-precio);
   display: flex;
   justify-content: center;
@@ -332,10 +332,10 @@ p:last-child { margin-bottom: 0; }
 .split-wrap {
   max-width: var(--max-w-wide);
   margin: 0 auto;
-  padding: 88px 24px;
+  padding: 56px 24px;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2.5rem;
   background: var(--fondo-clara);
 }
 
@@ -588,7 +588,7 @@ figcaption {
 
 /* ===== CTA FINAL ===== */
 .seccion-cta-final {
-  padding: 100px 24px;
+  padding: 64px 24px;
   background: var(--fondo-sage);
   display: flex;
   justify-content: center;
@@ -626,8 +626,11 @@ footer p {
 
 /* ===== RESPONSIVE ===== */
 @media (min-width: 640px) {
-  .seccion, .seccion-sage { padding: 110px 0; }
-  .split-wrap              { padding: 110px 24px; }
+  .seccion, .seccion-sage  { padding: 88px 0; }
+  .seccion-tierra          { padding: 88px 0; }
+  .seccion-precio          { padding: 100px 0; }
+  .seccion-cta-final       { padding: 88px 24px; }
+  .split-wrap              { padding: 88px 24px; }
   .btn                     { width: auto; }
   .foto-separadora         { height: 500px; }
   .foto-separadora-alta    { height: 580px; }

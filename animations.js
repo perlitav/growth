@@ -19,12 +19,4 @@ document.querySelectorAll('[data-stagger]').forEach(list => {
   });
 });
 
-// Parallax suave en el hero
-const heroBg = document.querySelector('.hero-bg');
-if (heroBg) {
-  window.addEventListener('scroll', () => {
-    const y = window.scrollY;
-    heroBg.style.transform = `translateY(${y * 0.3}px) scale(1.05)`;
-  }, { passive: true });
-}
 
