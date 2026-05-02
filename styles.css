@@ -196,20 +196,20 @@ p:last-child { margin-bottom: 0; }
 
 .hero-bg {
   position: absolute;
-  inset: 0;
+  inset: -4px;
   background-size: cover;
   background-position: center 35%;
+  filter: blur(3px);
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  /* gradiente suave: casi transparente arriba, más denso donde cae el texto */
   background: linear-gradient(
-    to bottom,
-    rgba(10,18,6,0.10) 0%,
-    rgba(10,18,6,0.35) 45%,
-    rgba(10,18,6,0.58) 100%
+    165deg,
+    rgba(12,20,8,0.62) 0%,
+    rgba(12,20,8,0.40) 55%,
+    rgba(12,20,8,0.72) 100%
   );
 }
 
