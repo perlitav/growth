@@ -199,11 +199,7 @@ p:last-child { margin-bottom: 0; }
   inset: 0;
   background-size: cover;
   background-position: center 35%;
-  transform: scale(1.05);
-  will-change: transform;
-  transition: transform 10s ease;
 }
-.hero:hover .hero-bg { transform: scale(1.0); }
 
 .hero-overlay {
   position: absolute;
